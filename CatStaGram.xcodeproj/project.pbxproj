@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		609DD487292C878A0069BCBA /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609DD486292C878A0069BCBA /* loginViewController.swift */; };
 		609DD489292C8B500069BCBA /* resisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609DD488292C8B500069BCBA /* resisterViewController.swift */; };
+		609DD48B293121A80069BCBA /* UIView+extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609DD48A293121A80069BCBA /* UIView+extention.swift */; };
+		609DD48D293126500069BCBA /* ViewController+extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609DD48C293126500069BCBA /* ViewController+extention.swift */; };
 		60C3D4D1292C56DE005BD07A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C3D4D0292C56DE005BD07A /* AppDelegate.swift */; };
 		60C3D4D3292C56DE005BD07A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C3D4D2292C56DE005BD07A /* SceneDelegate.swift */; };
 		60C3D4D8292C56DE005BD07A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C3D4D6292C56DE005BD07A /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		609DD486292C878A0069BCBA /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		609DD488292C8B500069BCBA /* resisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resisterViewController.swift; sourceTree = "<group>"; };
+		609DD48A293121A80069BCBA /* UIView+extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extention.swift"; sourceTree = "<group>"; };
+		609DD48C293126500069BCBA /* ViewController+extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+extention.swift"; sourceTree = "<group>"; };
 		60C3D4CD292C56DE005BD07A /* CatStaGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatStaGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C3D4D0292C56DE005BD07A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60C3D4D2292C56DE005BD07A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				60C3D4D9292C56E2005BD07A /* Assets.xcassets */,
 				60C3D4DB292C56E2005BD07A /* LaunchScreen.storyboard */,
 				60C3D4DE292C56E2005BD07A /* Info.plist */,
+				609DD48A293121A80069BCBA /* UIView+extention.swift */,
+				609DD48C293126500069BCBA /* ViewController+extention.swift */,
 			);
 			path = CatStaGram;
 			sourceTree = "<group>";
@@ -144,7 +150,9 @@
 				60C3D4D1292C56DE005BD07A /* AppDelegate.swift in Sources */,
 				60C3D4D3292C56DE005BD07A /* SceneDelegate.swift in Sources */,
 				609DD487292C878A0069BCBA /* loginViewController.swift in Sources */,
+				609DD48D293126500069BCBA /* ViewController+extention.swift in Sources */,
 				609DD489292C8B500069BCBA /* resisterViewController.swift in Sources */,
+				609DD48B293121A80069BCBA /* UIView+extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
